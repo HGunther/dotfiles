@@ -1,0 +1,48 @@
+## Settings
+## https://github.com/hrkfdn/ncspot/blob/main/doc/users.md
+initial_screen = "library" # "library", "search", "queue", "cover"
+use_nerdfont = true
+flip_status_indicators = true
+# notify = true
+library_tabs = ["playlists", "tracks", "albums", "artists", "podcasts", "browse"] #["tracks", "albums", "artists", "playlists", "podcasts", "browse"]
+
+
+## Formatting
+statusbar_format = "%artists: %title" # statusbar_format = "%artists - %title"
+
+[track_format]
+left = "%artists: %title" # "%artists - %title" 
+center = "%album" # "%album"
+right = "%saved %duration" # "%saved %duration"  
+
+
+## Themes
+
+## Spotify dupe/example
+[theme]
+background = "black"
+primary = "light white"
+secondary = "light black"
+title = "green"
+playing = "green"
+playing_selected = "light green"
+playing_bg = "black"
+highlight = "light white"
+highlight_bg = "#484848"
+error = "light white"
+error_bg = "red"
+statusbar = "black"
+statusbar_progress = "green"
+statusbar_bg = "green"
+cmdline = "light white"
+cmdline_bg = "black"
+search_match = "light red"
+
+
+## Login/Authentication
+# ncspot uses output of command to enable loading from password managers with scripts
+
+# [credentials]
+# username_cmd = "echo username"
+# password_cmd = "pass spotify.com/username" 
+
